@@ -8,7 +8,7 @@ import { FiPhoneCall } from "react-icons/fi";
 const AboutSection = () => {
   return (
     <div className="bg-[rgb(30,30,32)] pb-[91px] pt-[180px]">
-      <div className="mx-auto flex max-w-[1200px] justify-between">
+      <div className="mx-auto flex max-w-[1200px] justify-between px-4">
         <div className="flex gap-4">
           <div className="mt-[-81px]">
             <div className="h-[450px] w-[283px]">
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div>
-          <p className="anima1 flex items-center gap-1 xs:text-[13px] pb-2 font-bold uppercase text-[#00A795]">
+          <p className="anima1 xs:text-[13px] flex items-center gap-1 pb-2 font-bold uppercase text-[#00A795]">
             in the world
           </p>
           <h2 class="xs:text-[28px] xs:pb-3 font-bold leading-[58px] text-white md:!text-5xl lg:!pb-8">

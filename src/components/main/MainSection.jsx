@@ -3,6 +3,7 @@ import AboutSection from "./AboutSection";
 import Portfolio from "./Portfolio";
 import ServicesSection from "./ServicesSection";
 import PartnersSection from "./PartnersSection";
+import LastSection from "./LastSection";
 
 const MainSection = () => {
   return (
@@ -11,6 +12,7 @@ const MainSection = () => {
       <Portfolio />
       <ServicesSection />
       <PartnersSection />
+      <LastSection />
     </div>
   );
 };
