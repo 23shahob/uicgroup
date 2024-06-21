@@ -14,8 +14,7 @@ const Portfolio = () => {
               data-v-393aadc3=""
               class="bg-[#141415] text-[32px] font-bold uppercase leading-[130%] text-white md:text-[64px]"
             >
-              {" "}
-              portfolio{" "}
+              portfolio
             </p>
           </div>
           <div class="scroll-mini flex gap-3 overflow-y-auto max-md:w-full md:gap-4">

@@ -12,3 +12,17 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.anima1::before {
+  content: "";
+  width: 20px;
+  height: 1px;
+  background-color: gray;
+}
+
+.anima2::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  background-color: gray;
+}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div className="bg-[rgb(30,30,32)] pb-[91px] pt-[180px]">
       <div className="mx-auto flex max-w-[1200px] justify-between">
@@ -36,7 +36,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <p className="xs:text-[13px] pb-2 font-bold uppercase text-[#00A795]">
+          <p className="anima1 flex items-center gap-1 xs:text-[13px] pb-2 font-bold uppercase text-[#00A795]">
             in the world
           </p>
           <h2 class="xs:text-[28px] xs:pb-3 font-bold leading-[58px] text-white md:!text-5xl lg:!pb-8">
@@ -151,4 +151,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;
