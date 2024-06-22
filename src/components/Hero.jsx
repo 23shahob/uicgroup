@@ -7,7 +7,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div id="hero" className="relative">
+    <div className="relative">
       <img className="w-screen" src={MainBack} alt="Main Background Img" />
       <img className="absolute bottom-0" src={Mountain} alt="Mountain Img" />
       <div className="mx-auto max-w-[1200px]">

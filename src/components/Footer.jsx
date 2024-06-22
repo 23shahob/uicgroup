@@ -2,6 +2,13 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="bg-[#1E1E20] pt-10">
       <div className="mx-auto max-w-[1200px]">
@@ -48,7 +55,7 @@ const Footer = () => {
               </NavLink>
             </li>
           </ul>
-          <a href="#hero">
+          <a onClick={handleClick}>
             <div class="flex h-12 w-12 items-center justify-center rounded-[50%] border-[1px] transition duration-300 ease-in-out group-hover:border-[#00A795]">
               <i class="icon text-[#FFFFFF99] transition duration-300 ease-in-out hover:text-red-500 group-hover:!text-[#00A795]">
                 <svg
