@@ -78,7 +78,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.twitter.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/twitter.svg"
@@ -86,7 +86,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.instagram.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/instagram.svg"
@@ -94,7 +94,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.telegram.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/telegram.svg"
@@ -102,7 +102,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.linkedin.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/linkedin.svg"
@@ -110,7 +110,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.behance.net/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/behance.svg"
@@ -118,7 +118,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.dribbble.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/dribbble.svg"
@@ -126,7 +126,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.trustpilot.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/trustpilot.svg"
@@ -134,7 +134,7 @@ const Footer = () => {
                 />
               </div>
             </Link>
-            <Link to="https://www.facebook.com/">
+            <Link to="https://www.yelp.com/">
               <div className="h-9 w-9 items-center justify-center rounded-full border border-white transition duration-300 ease-in-out hover:border hover:border-[#00A975] hover:bg-[#00A975]">
                 <img
                   src="https://uic.group/uic-images/socials/yelp.svg"
