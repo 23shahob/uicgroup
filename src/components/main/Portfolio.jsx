@@ -5,43 +5,43 @@ const Portfolio = () => {
     <div className="bg-[#141415]">
       <div className="mx-auto max-w-[1200px] pb-24 pt-[118px]">
         <div
-          class="aos-init aos-animate mb-8 flex items-start justify-between text-white max-lg:flex-col md:mb-12"
+          className="aos-init aos-animate mb-8 flex items-start justify-between text-white max-lg:flex-col md:mb-12"
           data-aos="fade-right"
           data-aos-duration="600"
         >
-          <div data-v-393aadc3="" class="container-video max-lg:mb-5">
+          <div data-v-393aadc3="" className="container-video max-lg:mb-5">
             <p
               data-v-393aadc3=""
-              class="bg-[#141415] text-[32px] font-bold uppercase leading-[130%] text-white md:text-[64px]"
+              className="bg-[#141415] text-[32px] font-bold uppercase leading-[130%] text-white md:text-[64px]"
             >
               portfolio
             </p>
           </div>
-          <div class="scroll-mini flex gap-3 overflow-y-auto max-md:w-full md:gap-4">
+          <div className="scroll-mini flex gap-3 overflow-y-auto max-md:w-full md:gap-4">
             <a
               href="/portfolio/?category=2"
-              class="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
+              className="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
               aria-label="link"
             >
               Branding
             </a>
             <a
               href="/portfolio/?category=4"
-              class="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
+              className="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
               aria-label="link"
             >
               Mobile app
             </a>
             <a
               href="/portfolio/?category=3"
-              class="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
+              className="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
               aria-label="link"
             >
               CRM
             </a>
             <a
               href="/portfolio/?category=5"
-              class="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
+              className="font-roboto cursor-pointer whitespace-nowrap rounded-[8px] border border-solid border-white/20 px-4 py-2 text-white/60 duration-300 hover:border-[#00A795] hover:text-[#00A795] sm:rounded-[12px] md:px-6 md:py-3"
               aria-label="link"
             >
               Website
@@ -51,10 +51,10 @@ const Portfolio = () => {
         <div className="mb-6 grid grid-cols-2 gap-6">
           <div className="relative cursor-pointer">
             <div className="absolute p-6">
-              <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl lg:mb-2 lg:text-[38px] lg:leading-[45px]">
+              <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl lg:mb-2 lg:text-[38px] lg:leading-[45px]">
                 Uzbekistan's Club
               </div>
-              <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+              <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                 Website
               </p>
             </div>
@@ -67,10 +67,10 @@ const Portfolio = () => {
           <div className="grid cursor-pointer grid-cols-2 gap-6">
             <div className="relative rounded-2xl">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Anatomica
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   Website
                 </p>
               </div>
@@ -82,10 +82,10 @@ const Portfolio = () => {
             </div>
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Anatomica App
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   MOBILE APP
                 </p>
               </div>
@@ -97,10 +97,10 @@ const Portfolio = () => {
             </div>
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   EXPRESS24
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   MOBILE APP
                 </p>
               </div>
@@ -112,10 +112,10 @@ const Portfolio = () => {
             </div>
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Toshkent Parfum
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   MOBILE APP
                 </p>
               </div>
@@ -131,10 +131,10 @@ const Portfolio = () => {
           <div className="grid gap-6">
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Toshkent Parfum
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   WEBSITE
                 </p>
               </div>
@@ -146,10 +146,10 @@ const Portfolio = () => {
             </div>
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Toshkent Parfum
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   MOBILE APP
                 </p>
               </div>
@@ -162,10 +162,10 @@ const Portfolio = () => {
           </div>
           <div className="relative col-span-2 grid cursor-pointer">
             <div className="absolute p-6">
-              <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl lg:mb-2 lg:text-[38px] lg:leading-[45px]">
+              <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl lg:mb-2 lg:text-[38px] lg:leading-[45px]">
                 WAYU
               </div>
-              <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+              <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                 Website
               </p>
             </div>
@@ -178,10 +178,10 @@ const Portfolio = () => {
           <div className="grid gap-6">
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Ricomel
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   WEBSITE
                 </p>
               </div>
@@ -193,10 +193,10 @@ const Portfolio = () => {
             </div>
             <div className="relative cursor-pointer">
               <div className="absolute p-6">
-                <div class="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
+                <div className="!mb-1 line-clamp-3 text-sm font-bold !leading-[120%] text-white sm:text-base sm:leading-[22px] md:text-2xl md:text-lg lg:mb-[6px] lg:text-2xl lg:leading-[49px]">
                   Infomax freight
                 </div>
-                <p class="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
+                <p className="text-xs font-semibold uppercase leading-3 text-white/60 sm:leading-5 lg:text-sm">
                   WEBSITE
                 </p>
               </div>
@@ -210,11 +210,11 @@ const Portfolio = () => {
         </div>
         <a
           href="/portfolio"
-          class="md:rounded-12 w-[180px] rounded-8 sm:pr-auto !xs:pl-4 group flex cursor-pointer items-center justify-center !whitespace-nowrap rounded-lg bg-[#00A795] transition duration-500 ease-in-out hover:bg-[#06bfab]"
+          className="md:rounded-12 rounded-8 sm:pr-auto !xs:pl-4 group flex w-[180px] cursor-pointer items-center justify-center !whitespace-nowrap rounded-lg bg-[#00A795] transition duration-500 ease-in-out hover:bg-[#06bfab]"
         >
-          <p class="lg:!leading-130 flex items-center justify-center gap-x-[10px] whitespace-nowrap py-[10px] text-[13px] font-bold leading-[16px] text-white sm:py-[10px] sm:text-base md:!text-[16px] lg:!gap-x-[24px] lg:!pb-[14px] lg:!pt-[13px] lg:!text-[16px]">
+          <p className="lg:!leading-130 flex items-center justify-center gap-x-[10px] whitespace-nowrap py-[10px] text-[13px] font-bold leading-[16px] text-white sm:py-[10px] sm:text-base md:!text-[16px] lg:!gap-x-[24px] lg:!pb-[14px] lg:!pt-[13px] lg:!text-[16px]">
             All projects
-            <i class="flex h-[16px] w-[16px] items-center transition duration-500 ease-in-out hover:text-red-500 group-hover:rotate-45 lg:h-[24px] lg:w-[24px]">
+            <i className="flex h-[16px] w-[16px] items-center transition duration-500 ease-in-out hover:text-red-500 group-hover:rotate-45 lg:h-[24px] lg:w-[24px]">
               <svg
                 width="24"
                 height="24"
@@ -227,14 +227,14 @@ const Portfolio = () => {
                   height="24"
                   rx="12"
                   fill="white"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                 ></rect>
                 <path
                   d="M16.1843 14.5534L16.3807 7.28596L6.95266 16.7141M9.11326 7.48238L16.3807 7.28596L9.11326 7.48238Z"
                   stroke="white"
-                  stroke-width="1.6"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
               </svg>
             </i>

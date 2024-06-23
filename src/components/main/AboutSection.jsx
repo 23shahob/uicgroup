@@ -39,15 +39,15 @@ const AboutSection = () => {
           <p className="anima1 xs:text-[13px] flex items-center gap-1 pb-2 font-bold uppercase text-[#00A795]">
             in the world
           </p>
-          <h2 class="xs:text-[28px] xs:pb-3 font-bold leading-[58px] text-white md:!text-5xl lg:!pb-8">
+          <h2 className="xs:text-[28px] xs:pb-3 font-bold leading-[58px] text-white md:!text-5xl lg:!pb-8">
             About us
           </h2>
-          <h2 class="xs:text-[13px] font-normal text-[#E0E0E099] sm:w-full md:!text-base xl:!w-[458px]">
+          <h2 className="xs:text-[13px] font-normal text-[#E0E0E099] sm:w-full md:!text-base xl:!w-[458px]">
             Every big company needs to thank not only itself, but also those who
             have stood beside it and believed in it. After all, the most
             important principle in our work is trust.
           </h2>
-          <h2 class="xs:text-[13px] pt-2 font-normal text-[#E0E0E099] sm:w-full md:!text-base xl:!w-[458px]">
+          <h2 className="xs:text-[13px] pt-2 font-normal text-[#E0E0E099] sm:w-full md:!text-base xl:!w-[458px]">
             Trust not only ensures the loyalty of customers and partners, but
             also increases our demand for ourselves. We cooperate on the basis
             of relations built on thousand-year human traditions.
@@ -56,16 +56,16 @@ const AboutSection = () => {
             data-v-77920e16=""
             data-aos="fade-left"
             data-aos-duration="1900"
-            class="xs:items-start xs:justify-around xs:gap-[22px] aos-init aos-animate flex items-center gap-[12px] pt-3 sm:gap-0 xl:!justify-center xl:!gap-[84px]"
+            className="xs:items-start xs:justify-around xs:gap-[22px] aos-init aos-animate flex items-center gap-[12px] pt-3 sm:gap-0 xl:!justify-center xl:!gap-[84px]"
           >
             <span
               data-v-77920e16=""
-              class="xs:gap-[19px] flex items-center justify-center md:!gap-7"
+              className="xs:gap-[19px] flex items-center justify-center md:!gap-7"
             >
               <i
                 data-v-56c03d90=""
                 data-v-77920e16=""
-                class="icon mr-1 text-[#00A795] hover:text-red-500"
+                className="icon mr-1 text-[#00A795] hover:text-red-500"
               >
                 <svg
                   width="26"
@@ -78,25 +78,25 @@ const AboutSection = () => {
                     d="M12.8913 20.1951L22.1404 21.0359L13.5412 38.2342L14.1979 27.0704C14.236 26.4237 13.7538 25.8636 13.1086 25.8049L3.85958 24.9641L12.4588 7.76573L11.8021 18.9295C11.764 19.5762 12.2462 20.1364 12.8913 20.1951ZM24.1086 18.8049L14.2662 17.9101L15.1979 2.07045C15.2745 0.767755 13.5103 0.296146 12.9267 1.46332L0.92668 25.4633C0.548736 26.2192 1.04971 27.1185 1.89135 27.1951L11.7338 28.0898L10.8021 43.9295C10.7254 45.2322 12.4897 45.7038 13.0733 44.5366L25.0733 20.5366C25.4513 19.7808 24.9503 18.8814 24.1086 18.8049Z"
                     fill="#00A795"
                     stroke="#00A795"
-                    stroke-width="0.4"
+                    strokeWidth="0.4"
                   ></path>
                 </svg>
               </i>
               <p
                 data-v-77920e16=""
-                class="xs:text-[13px] xs:leading-140 xs:w-[107px] font-medium text-[#E0E0E0] md:!w-[105px] md:!text-base"
+                className="xs:text-[13px] xs:leading-140 xs:w-[107px] font-medium text-[#E0E0E0] md:!w-[105px] md:!text-base"
               >
                 Quick solutions
               </p>
             </span>
             <span
               data-v-77920e16=""
-              class="xs:gap-3 flex items-center justify-center md:!gap-7"
+              className="xs:gap-3 flex items-center justify-center md:!gap-7"
             >
               <i
                 data-v-56c03d90=""
                 data-v-77920e16=""
-                class="icon mr-1 text-[#00A795] hover:text-red-500"
+                className="icon mr-1 text-[#00A795] hover:text-red-500"
               >
                 <svg
                   width="48"
@@ -121,7 +121,7 @@ const AboutSection = () => {
               </i>
               <p
                 data-v-77920e16=""
-                class="xs:text-[13px] xs:leading-140 w-[105px] font-medium text-[#E0E0E0] md:!text-base"
+                className="xs:text-[13px] xs:leading-140 w-[105px] font-medium text-[#E0E0E0] md:!text-base"
               >
                 Unique projects
               </p>

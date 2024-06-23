@@ -56,8 +56,8 @@ const Footer = () => {
             </li>
           </ul>
           <a onClick={handleClick}>
-            <div class="flex h-12 w-12 items-center justify-center rounded-[50%] border-[1px] transition duration-300 ease-in-out group-hover:border-[#00A795]">
-              <i class="icon text-[#FFFFFF99] transition duration-300 ease-in-out hover:text-red-500 group-hover:!text-[#00A795]">
+            <div className="flex h-12 w-12 items-center justify-center rounded-[50%] border-[1px] transition duration-300 ease-in-out group-hover:border-[#00A795]">
+              <i className="icon text-[#FFFFFF99] transition duration-300 ease-in-out hover:text-red-500 group-hover:!text-[#00A795]">
                 <svg
                   width="11"
                   height="23"
@@ -68,7 +68,7 @@ const Footer = () => {
                   <path
                     d="M0.218756 5.17755L4.97187 0.227806C5.26355 -0.0759356 5.73645 -0.0759356 6.02812 0.227806L10.7812 5.17755C11.0729 5.48129 11.0729 5.97375 10.7812 6.2775C10.4896 6.58124 10.0167 6.58124 9.72499 6.2775L6.24688 2.6555L6.24688 23L4.75312 23L4.75312 2.6555L1.275 6.2775C0.983329 6.58124 0.510431 6.58124 0.218756 6.2775C-0.0729195 5.97375 -0.0729195 5.48129 0.218756 5.17755Z"
                     fill="white"
-                    fill-opacity="0.6"
+                    fillOpacity="0.6"
                   ></path>
                 </svg>
               </i>
@@ -151,8 +151,8 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex items-center gap-4">
-            <div class="xs:justify-center flex items-center gap-x-1 sm:!gap-x-3">
-              <i class="icon text-white hover:text-red-500">
+            <div className="xs:justify-center flex items-center gap-x-1 sm:!gap-x-3">
+              <i className="icon text-white hover:text-red-500">
                 <svg
                   width="24"
                   height="24"
@@ -165,11 +165,11 @@ const Footer = () => {
                     height="24"
                     rx="12"
                     fill="white"
-                    fill-opacity="0.3"
+                    fillOpacity="0.3"
                   ></rect>
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M12 4.8C8.02355 4.8 4.8 8.02355 4.8 12C4.8 15.9765 8.02355 19.2 12 19.2C13.1511 19.2 14.2367 18.9305 15.1995 18.4521C15.6446 18.2309 16.1847 18.4124 16.4059 18.8575C16.6272 19.3026 16.4456 19.8428 16.0005 20.064C14.7944 20.6634 13.4352 21 12 21C7.02943 21 3 16.9705 3 12C3 7.02943 7.02943 3 12 3C16.9705 3 21 7.02943 21 12V12.9C21 14.1681 20.6826 15.1818 20.0883 15.8949C19.485 16.6188 18.663 16.95 17.85 16.95C16.7458 16.95 15.6292 16.328 15.0691 15.291C14.2651 16.0411 13.1862 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C13.013 7.5 13.9479 7.83475 14.7 8.39967C14.7002 7.90277 15.103 7.5 15.6 7.5C16.0971 7.5 16.5 7.90295 16.5 8.4V13.8C16.5 14.5955 17.1626 15.15 17.85 15.15C18.162 15.15 18.465 15.0312 18.7055 14.7426C18.9549 14.4432 19.2 13.8819 19.2 12.9V12C19.2 8.02355 15.9765 4.8 12 4.8ZM14.7 12C14.7 10.5088 13.4912 9.3 12 9.3C10.5088 9.3 9.3 10.5088 9.3 12C9.3 13.4912 10.5088 14.7 12 14.7C13.4912 14.7 14.7 13.4912 14.7 12Z"
                     fill="white"
                   ></path>
@@ -178,15 +178,15 @@ const Footer = () => {
               <a
                 data-v-34700754=""
                 href="mailto:info@uic.group"
-                class="xs:leading-[18px] text-[15px] text-base font-normal text-white transition duration-300 ease-in-out hover:text-white md:text-[#FFFFFF99] lg:!text-[16px]"
+                className="xs:leading-[18px] text-[15px] text-base font-normal text-white transition duration-300 ease-in-out hover:text-white md:text-[#FFFFFF99] lg:!text-[16px]"
                 target="_blank"
                 aria-label="link"
               >
                 info@uic.group
               </a>
             </div>
-            <div class="xs:justify-center xs:gap-x-1 flex items-center sm:!gap-x-3">
-              <i class="icon text-white hover:text-red-500">
+            <div className="xs:justify-center xs:gap-x-1 flex items-center sm:!gap-x-3">
+              <i className="icon text-white hover:text-red-500">
                 <svg
                   width="25"
                   height="24"
@@ -200,37 +200,37 @@ const Footer = () => {
                     height="24"
                     rx="12"
                     fill="white"
-                    fill-opacity="0.3"
+                    fillOpacity="0.3"
                   ></rect>
                   <path
                     d="M13.3975 13.6577C13.1606 13.8944 12.9237 14.2495 12.7461 14.5455C11.6802 13.7168 10.7327 12.7106 9.90364 11.7044C10.2589 11.5269 10.555 11.2901 10.7919 11.0534C11.9762 9.86958 11.5617 8.33068 10.3774 7.14691C9.19303 5.96314 7.7126 5.48963 6.46904 6.73259C5.22548 7.97555 5.10705 10.1063 6.05452 11.4677C7.77182 14.072 10.3774 16.6763 12.9829 18.3927C14.4041 19.3398 16.536 19.1622 17.7203 17.9784C18.9047 16.7946 18.4901 15.2557 17.3058 14.072C16.1214 12.8882 14.5818 12.4147 13.3975 13.6577Z"
                     stroke="white"
-                    stroke-width="1.6"
-                    stroke-miterlimit="10"
-                    stroke-linejoin="round"
+                    strokeWidth="1.6"
+                    strokeMiterlimit="10"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M19.428 11C19.428 7.66667 16.7613 5 13.428 5"
                     stroke="white"
-                    stroke-width="1.6"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.6"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                   <path
                     d="M16.428 11C16.428 9.34043 15.081 8 13.428 8"
                     stroke="white"
-                    stroke-width="1.6"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.6"
+                    strokeMiterlimit="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </i>
               <a
                 data-v-34700754=""
                 href="tel:+998 71 200 70 07"
-                class="xs:leading-[18px] text-[15px] text-base font-normal text-white transition duration-300 ease-in-out hover:text-white md:text-[#FFFFFF99] lg:!text-[16px]"
+                className="xs:leading-[18px] text-[15px] text-base font-normal text-white transition duration-300 ease-in-out hover:text-white md:text-[#FFFFFF99] lg:!text-[16px]"
                 target="_blank"
                 aria-label="link"
               >
@@ -242,28 +242,28 @@ const Footer = () => {
         <div className="pt-5">
           <div
             data-v-34700754=""
-            class="mt-[18px] flex h-auto flex-col-reverse items-center md:flex-row md:justify-between"
+            className="mt-[18px] flex h-auto flex-col-reverse items-center md:flex-row md:justify-between"
           >
-            <div data-v-34700754="" class="mb-[28px] mt-4 sm:!mb-9">
+            <div data-v-34700754="" className="mb-[28px] mt-4 sm:!mb-9">
               <p
                 data-v-34700754=""
-                class="xs:text-[13px] text-base font-medium text-[#FFFFFF] opacity-[0.6] sm:!text-base"
+                className="xs:text-[13px] text-base font-medium text-[#FFFFFF] opacity-[0.6] sm:!text-base"
               >
                 {" "}
                 © UIC GROUP <span data-v-34700754="">2024</span>
               </p>
             </div>
-            <div data-v-34700754="" class="mb-[16px] hidden lg:inline">
+            <div data-v-34700754="" className="mb-[16px] hidden lg:inline">
               <a
                 data-v-34700754=""
                 aria-current="page"
                 href="/"
-                class="router-link-active router-link-exact-active uic flex items-center justify-center text-center md:gap-[8px] lg:!flex"
+                className="router-link-active router-link-exact-active uic flex items-center justify-center text-center md:gap-[8px] lg:!flex"
               >
                 <i
                   data-v-56c03d90=""
                   data-v-34700754=""
-                  class="icon uicLogo text-white opacity-[0.8] hover:text-red-500"
+                  className="icon uicLogo text-white opacity-[0.8] hover:text-red-500"
                 >
                   <svg
                     width="60"
@@ -329,7 +329,7 @@ const Footer = () => {
                 <i
                   data-v-56c03d90=""
                   data-v-34700754=""
-                  class="icon uicIcon text-white opacity-[0.8] hover:text-red-500 md:opacity-0"
+                  className="icon uicIcon text-white opacity-[0.8] hover:text-red-500 md:opacity-0"
                 >
                   <svg
                     data-v-82c499f6=""
@@ -383,19 +383,19 @@ const Footer = () => {
                 </i>
               </a>
             </div>
-            <div data-v-34700754="" class="w-full md:!w-auto">
+            <div data-v-34700754="" className="w-full md:!w-auto">
               <a
                 data-v-34700754=""
-                class="rounded-12 xs:py-0 group mb-[16px] flex items-center justify-between border-[1px] border-solid border-[#FFFFFF33] py-1 transition duration-300 ease-in-out hover:border-[#00A795]"
+                className="rounded-12 xs:py-0 group mb-[16px] flex items-center justify-between border-[1px] border-solid border-[#FFFFFF33] py-1 transition duration-300 ease-in-out hover:border-[#00A795]"
                 href="https://yandex.com/maps/-/CCUZF6Eq1D"
                 target="_blank"
                 aria-label="link"
               >
-                <div data-v-34700754="" class="flex items-center pl-3">
+                <div data-v-34700754="" className="flex items-center pl-3">
                   <i
                     data-v-56c03d90=""
                     data-v-34700754=""
-                    class="icon mr-0 text-[#FFFFFF99] hover:text-red-500 sm:mr-[10px] lg:!ml-[19.5px] lg:!mr-[11.5px]"
+                    className="icon mr-0 text-[#FFFFFF99] hover:text-red-500 sm:mr-[10px] lg:!ml-[19.5px] lg:!mr-[11.5px]"
                   >
                     <svg
                       width="24"
@@ -407,23 +407,23 @@ const Footer = () => {
                       <path
                         d="M6.29292 5.2071L9.79292 8.7071C9.91541 8.82918 10.0674 8.91744 10.2342 8.96328C10.4009 9.00913 10.5767 9.01099 10.7444 8.9687C10.9121 8.9264 11.0659 8.84138 11.191 8.72193C11.316 8.60248 11.408 8.45267 11.4579 8.2871L12.9579 3.2871C13.0098 3.11418 13.0138 2.93045 12.9696 2.75541C12.9255 2.58037 12.8348 2.42054 12.7071 2.29289C12.5795 2.16524 12.4197 2.07453 12.2446 2.03037C12.0696 1.98622 11.8858 1.99027 11.7129 2.0421L6.71292 3.5421C6.54773 3.59251 6.39835 3.68473 6.27926 3.80982C6.16017 3.93491 6.07539 4.08863 6.03315 4.2561C5.99091 4.42357 5.99262 4.59911 6.03813 4.76572C6.08364 4.93233 6.17141 5.08436 6.29292 5.2071Z"
                         fill="white"
-                        fill-opacity="0.6"
+                        fillOpacity="0.6"
                       ></path>
                       <path
                         d="M4.96009 8.15717C3.25209 9.65817 3.00809 12.3252 4.41209 14.1252C5.82609 15.9372 8.40209 16.2322 10.1681 14.7832L15.0481 10.7792C15.2669 10.5994 15.5197 10.4655 15.7914 10.3854C16.063 10.3053 16.3481 10.2806 16.6294 10.3129C16.9108 10.3452 17.1828 10.4337 17.4293 10.5733C17.6758 10.7128 17.8916 10.9005 18.0641 11.1252C18.8131 12.0852 18.6811 13.5252 17.7711 14.3252L16.7281 15.2412C16.3191 15.6012 16.2721 16.2312 16.6221 16.6512C16.9721 17.0712 17.5881 17.1192 17.9971 16.7592L19.0401 15.8432C20.7481 14.3412 20.9931 11.6772 19.5871 9.87517C18.1751 8.06517 15.5951 7.76917 13.8311 9.21717L8.95109 13.2212C8.73236 13.4012 8.4796 13.5354 8.2079 13.6156C7.9362 13.6959 7.65112 13.7206 7.36965 13.6883C7.08819 13.656 6.81611 13.5674 6.56965 13.4277C6.32318 13.288 6.10737 13.1001 5.93509 12.8752C5.18809 11.9172 5.31909 10.4752 6.22809 9.67517L6.77009 9.26017C7.17909 8.90017 7.23009 8.27017 6.88009 7.85017C6.79787 7.75061 6.69649 7.66858 6.58196 7.60895C6.46743 7.54932 6.34209 7.51331 6.21338 7.50305C6.08466 7.49279 5.9552 7.50849 5.83267 7.54922C5.71014 7.58996 5.59705 7.65489 5.50009 7.74017L4.96009 8.15717Z"
                         fill="white"
-                        fill-opacity="0.6"
+                        fillOpacity="0.6"
                       ></path>
                       <path
                         d="M10 19C10 18.2044 10.3161 17.4413 10.8787 16.8787C11.4413 16.3161 12.2044 16 13 16C13.7956 16 14.5587 16.3161 15.1213 16.8787C15.6839 17.4413 16 18.2044 16 19C16 19.7956 15.6839 20.5587 15.1213 21.1213C14.5587 21.6839 13.7956 22 13 22C12.2044 22 11.4413 21.6839 10.8787 21.1213C10.3161 20.5587 10 19.7956 10 19Z"
                         fill="white"
-                        fill-opacity="0.6"
+                        fillOpacity="0.6"
                       ></path>
                     </svg>
                   </i>
                   <h3
                     data-v-34700754=""
-                    class="flex-wrap text-[13px] text-base font-medium leading-[19px] text-[#FFFFFF] opacity-[0.6] lg:!text-[16px]"
+                    className="flex-wrap text-[13px] text-base font-medium leading-[19px] text-[#FFFFFF] opacity-[0.6] lg:!text-[16px]"
                   >
                     Tashkent city. Shayxontoxur district. Adkham Rakhmat street
                     - 15/1
@@ -431,7 +431,7 @@ const Footer = () => {
                 </div>
                 <div
                   data-v-34700754=""
-                  class="xs:py-2 rounded-6 xs:mb-[6px] xs:ml-[14px] xs:my-[6px] xs:text-[13px] ml-[14px] mr-[6px] whitespace-nowrap bg-[#FFFFFF29] px-2 font-normal text-white transition duration-300 ease-in-out group-hover:bg-[#00A795] sm:px-2 lg:!px-2.5 lg:!pb-[6px] lg:!pt-[3px] lg:!text-[16px]"
+                  className="xs:py-2 rounded-6 xs:mb-[6px] xs:ml-[14px] xs:my-[6px] xs:text-[13px] ml-[14px] mr-[6px] whitespace-nowrap bg-[#FFFFFF29] px-2 font-normal text-white transition duration-300 ease-in-out group-hover:bg-[#00A795] sm:px-2 lg:!px-2.5 lg:!pb-[6px] lg:!pt-[3px] lg:!text-[16px]"
                 >
                   Map
                 </div>

@@ -8,7 +8,7 @@ const PartnersSection = () => {
         <p className="mb-3 text-sm font-bold uppercase text-[#00A795]">
           our partners
         </p>
-        <div class="mb-[36px] text-[28px] font-bold leading-[34px] text-white sm:text-[28px] sm:leading-[34px] md:mb-[50px] md:text-[36px] md:leading-[38px] lg:mb-[64px] lg:leading-[43px]">
+        <div className="mb-[36px] text-[28px] font-bold leading-[34px] text-white sm:text-[28px] sm:leading-[34px] md:mb-[50px] md:text-[36px] md:leading-[38px] lg:mb-[64px] lg:leading-[43px]">
           Companies that believe in us
         </div>
         <div className="grid gap-5 px-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
